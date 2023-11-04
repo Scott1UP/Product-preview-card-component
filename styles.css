@@ -1,0 +1,82 @@
+body {
+    font-family: Montserrat;
+    background-color: hsl(30, 38%, 92%);
+}
+
+h1 {
+    font-family: Fraunces;
+    line-height: 32px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h5 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0 0;
+    font-weight: 500;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    border-radius: 12px;
+
+    background-color: white;
+    margin-bottom: 4rem;
+}
+
+.perfume {
+    width: 50%;
+    object-fit: cover;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+}
+
+.body-copy {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    color: teal;
+    display: inline;
+}
+
+.strike {
+    text-decoration-line: line-through;
+}
+
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+
+    background-color: teal;
+    color: white;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
